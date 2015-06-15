@@ -1,3 +1,3 @@
 #include "Message.h"
 
-Message msg ;
+Message msg = DO_NOTHING;

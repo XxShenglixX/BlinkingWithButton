@@ -2,15 +2,21 @@
 :source:
   :path: test
   :file: test_ButtonSM.c
-:successes: []
+:successes:
+- :test: test_ButtonSM_should_change_state_to_PRESS__and_change_msg_when_button_is_pressed_INITIAL_RELEASE
+  :line: 17
+  :message: ''
+- :test: test_ButtonSM_should_remain_at_state_RELEASE_when_button_is_released_INITIAL_RELEASE
+  :line: 31
+  :message: ''
+- :test: test_ButtonSM_should_change_state_to_RELEASE_when_button_is_released_INITIAL_PRESS
+  :line: 44
+  :message: ''
 :failures: []
-:ignores:
-- :test: test_module_generator_needs_to_be_implemented
-  :line: 14
-  :message: Implement me!
+:ignores: []
 :counts:
-  :total: 1
-  :passed: 0
+  :total: 3
+  :passed: 3
   :failed: 0
-  :ignored: 1
+  :ignored: 0
 :stdout: []

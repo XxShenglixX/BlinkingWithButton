@@ -1,5 +1,12 @@
 #include "unity.h"
+#include "mock_Timer.h"
+#include "mock_LED.h"
+#include "mock_Button.h"
 #include "Message.h"
+#include "LedSM.h"
+#include "ButtonSM.h"
+
+
 
 
 void setUp(void)
@@ -13,15 +20,5 @@ void setUp(void)
 void tearDown(void)
 
 {
-
-}
-
-
-
-void test_module_generator_needs_to_be_implemented(void)
-
-{
-
- UnityIgnore( ("Implement me!"), (_U_UINT)14);;
 
 }

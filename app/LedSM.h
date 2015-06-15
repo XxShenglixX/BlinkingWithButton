@@ -10,4 +10,8 @@ typedef struct
 	uint32_t time ;
 }LedData ;
 
+
+void ledInitData(LedData *data);
+void ledSM(LedData *data);
+
 #endif // LedSM_H

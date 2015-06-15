@@ -1,6 +1,0 @@
-#!/bin/bash
-
-git config --global user.name "XxShenglixX"
-git config --global user.email "c_shengli@hotmail.com"
-
-git config --global --list

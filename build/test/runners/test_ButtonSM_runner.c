@@ -8,9 +8,12 @@
   Unity.NumberOfTests++; \
   if (TEST_PROTECT()) \
   { \
+      CMock_Init(); \
       setUp(); \
       TestFunc(); \
+      CMock_Verify(); \
   } \
+  CMock_Destroy(); \
   if (TEST_PROTECT() && !TEST_IS_IGNORED) \
   { \
     tearDown(); \
@@ -20,8 +23,12 @@
 
 //=======Automagically Detected Files To Include=====
 #include "unity.h"
+#include "cmock.h"
 #include <setjmp.h>
 #include <stdio.h>
+#include "mock_Button.h"
+#include "mock_LED.h"
+#include "mock_Timer.h"
 
 int GlobalExpectCount;
 int GlobalVerifyOrder;
@@ -30,13 +37,41 @@ char* GlobalOrderError;
 //=======External Functions This Runner Calls=====
 extern void setUp(void);
 extern void tearDown(void);
-extern void test_module_generator_needs_to_be_implemented(void);
+extern void test_ButtonSM_should_change_state_to_PRESS__and_change_msg_when_button_is_pressed_INITIAL_RELEASE(void);
+extern void test_ButtonSM_should_remain_at_state_RELEASE_when_button_is_released_INITIAL_RELEASE(void);
+extern void test_ButtonSM_should_change_state_to_RELEASE_when_button_is_released_INITIAL_PRESS(void);
 
+
+//=======Mock Management=====
+static void CMock_Init(void)
+{
+  GlobalExpectCount = 0;
+  GlobalVerifyOrder = 0;
+  GlobalOrderError = NULL;
+  mock_Button_Init();
+  mock_LED_Init();
+  mock_Timer_Init();
+}
+static void CMock_Verify(void)
+{
+  mock_Button_Verify();
+  mock_LED_Verify();
+  mock_Timer_Verify();
+}
+static void CMock_Destroy(void)
+{
+  mock_Button_Destroy();
+  mock_LED_Destroy();
+  mock_Timer_Destroy();
+}
 
 //=======Test Reset Option=====
 void resetTest()
 {
+  CMock_Verify();
+  CMock_Destroy();
   tearDown();
+  CMock_Init();
   setUp();
 }
 
@@ -46,7 +81,9 @@ int main(void)
 {
   Unity.TestFile = "test_ButtonSM.c";
   UnityBegin();
-  RUN_TEST(test_module_generator_needs_to_be_implemented, 12);
+  RUN_TEST(test_ButtonSM_should_change_state_to_PRESS__and_change_msg_when_button_is_pressed_INITIAL_RELEASE, 17);
+  RUN_TEST(test_ButtonSM_should_remain_at_state_RELEASE_when_button_is_released_INITIAL_RELEASE, 31);
+  RUN_TEST(test_ButtonSM_should_change_state_to_RELEASE_when_button_is_released_INITIAL_PRESS, 44);
 
   return (UnityEnd());
 }

@@ -4,13 +4,10 @@
   :file: test_Message.c
 :successes: []
 :failures: []
-:ignores:
-- :test: test_module_generator_needs_to_be_implemented
-  :line: 14
-  :message: Implement me!
+:ignores: []
 :counts:
-  :total: 1
+  :total: 0
   :passed: 0
   :failed: 0
-  :ignored: 1
+  :ignored: 0
 :stdout: []
