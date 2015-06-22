@@ -1,4 +1,4 @@
-#include "Timer.h"
+#include "Time.h"
 
 uint32_t currentTime = 0 ;
 
@@ -17,6 +17,8 @@ int checkTime(int Time_LED,int LED_no)
 {
 	static uint32_t previousTime[5] = {0} ;
 
+	currentTime = getCurrentTime();
+
 	if(currentTime - previousTime[LED_no] >= Time_LED)
 	{
 		previousTime[LED_no] = currentTime ;
@@ -25,4 +27,9 @@ int checkTime(int Time_LED,int LED_no)
 	else
 		return 0 ;
 
+}
+
+uint32_t getCurrentTime()
+{
+	return HAL_GetTick();
 }

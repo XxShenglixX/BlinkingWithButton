@@ -1,7 +1,7 @@
 #include "ButtonSM.h"
 #include "Message.h"
 #include "LED.h"
-#include "Timer.h"
+#include "Time.h"
 #include "Button.h"
 
 void buttonInitData(ButtonData *data)

@@ -1,7 +1,7 @@
 #include "LedSM.h"
 #include "Message.h"
 #include "LED.h"
-#include "Timer.h"
+#include "Time.h"
 
 void ledInitData(LedData *data)
 {

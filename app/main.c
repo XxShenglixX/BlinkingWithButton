@@ -1,24 +1,28 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_gpio.h"
+#include "main.h"
 #include "configuration.h"
-#include "Timer.h"
+#include "Time.h"
 #include "LED.h"
 #include "LedSM.h"
 #include "ButtonSM.h"
 #include "State.h"
 #include "Message.h"
 
-#define _100ms 100
-#define _120ms 120
-#define _200ms 200
-#define _500ms 500
-#define _1000ms 1000
-#define _2000ms 2000
+void testFunc(void);
+int dummy (int value)
+{
+	return value * 3 ;
+}
 
 
 int main(void)
 {
 	LedData ledData ; ButtonData buttonData ;
+
+	testFunc();
+
+	initSysTick();
 
 	ledInitData(&ledData);
 	buttonInitData(&buttonData);
@@ -30,12 +34,18 @@ int main(void)
 	{
 		buttonSM(&buttonData);
 		ledSM(&ledData);
-		updateCurrentTime();
 	}
 
 
 }
 
 
+void initSysTick()
+{
+	if(SysTick_Config(SystemCoreClock / 1000))
+	{
+		while(1);
+	}
 
+}
 
