@@ -8,6 +8,7 @@
 #include "ButtonSM.h"
 #include "State.h"
 #include "Message.h"
+#include "Task.h"
 
 void testFunc(void);
 int dummy (int value)
@@ -20,9 +21,7 @@ int main(void)
 {
 	LedData ledData ; ButtonData buttonData ;
 
-	testFunc();
 
-	initSysTick();
 
 	ledInitData(&ledData);
 	buttonInitData(&buttonData);
@@ -30,10 +29,18 @@ int main(void)
 	initLED();
 	configButton();
 
+	initTcb();
+	initSysTick();
+	taskswitch();
+	//testFunc();
+
+
+
+
 	while(1)
 	{
-		buttonSM(&buttonData);
-		ledSM(&ledData);
+		//buttonSM(&buttonData);
+		//ledSM(&ledData);
 	}
 
 
