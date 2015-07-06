@@ -14,35 +14,25 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="assembly.s" partName="assembly.s" path="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/assembly.s" title="assembly.s" tooltip="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/assembly.s" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BlinkingWithButton/Code/assembly.s"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="184" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Task.c" partName="Task.c" path="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/Task.c" title="Task.c" tooltip="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/Task.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BlinkingWithButton/Code/Task.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="992" selectionTopPixel="166"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Task.h" partName="Task.h" path="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/Task.h" title="Task.h" tooltip="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/Task.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BlinkingWithButton/Code/Task.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="384" selectionTopPixel="0"/>
+</editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/main.c" title="main.c" tooltip="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BlinkingWithButton/Code/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="483" selectionTopPixel="170"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="assembly.s" partName="assembly.s" path="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/assembly.s" title="assembly.s" tooltip="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/assembly.s" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BlinkingWithButton/Code/assembly.s"/>
-<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="274" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="scheduler.s" partName="scheduler.s" path="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/scheduler.s" title="scheduler.s" tooltip="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/scheduler.s" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BlinkingWithButton/Code/scheduler.s"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="236" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_it.c" partName="stm32f4xx_it.c" path="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/stm32f4xx_it.c" title="stm32f4xx_it.c" tooltip="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/stm32f4xx_it.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BlinkingWithButton/Hardware/stm32f4xx_it.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4789" selectionTopPixel="2190"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Time.c" partName="Time.c" path="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/Time.c" title="Time.c" tooltip="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/Time.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BlinkingWithButton/Code/Time.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="491" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f429xx.s" partName="startup_stm32f429xx.s" path="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/startup_stm32f429xx.s" title="startup_stm32f429xx.s" tooltip="C:/Users/D203C-01/CoIDE/workspace/BlinkingWithButton/app/startup_stm32f429xx.s" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BlinkingWithButton/STM32F4/startup_stm32f429xx.s"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="249" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -58,9 +48,6 @@
 <element path="/BlinkingWithButton/Hardware"/>
 <element path="/BlinkingWithButton/STM32F4"/>
 </expanded>
-<selection>
-<element path="/BlinkingWithButton/Code/Time.c"/>
-</selection>
 </viewState>
 </view>
 <view id="org.eclipse.debug.ui.RegisterView" partName="Registers">
@@ -90,7 +77,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.eclipse.cdt.ui.editor.asm.AsmEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
@@ -112,8 +99,8 @@
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
 <hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
-<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
 <hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
@@ -201,8 +188,8 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
 <hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
-<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
 <hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.coocox.codebugger.trace.ui.traceview"/>
@@ -242,7 +229,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1bb1b9e" ratio="0.6280536" ratioLeft="797" ratioRight="472" relationship="2" relative="org.eclipse.ui.internal.ViewStack@10a5ced">
-<folder activePageID="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
 <page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="Memory Browser"/>
@@ -254,7 +241,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@32cd1a" ratio="0.7178881" ratioLeft="911" ratioRight="358" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1379f82">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@32cd1a" ratio="0.82742316" ratioLeft="1050" ratioRight="219" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1379f82">
 <folder activePageID="org.eclipse.debug.ui.RegisterView" appearance="2" expanded="2">
 <page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="Disassembly"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="Registers"/>
@@ -276,162 +263,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BlinkingWithButton/Code/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BlinkingWithButton/Hardware/stm32f4xx_it.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/BlinkingWithButton/Code/scheduler.s"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/BlinkingWithButton/Code/assembly.s"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BlinkingWithButton/Code/Task.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/BlinkingWithButton/STM32F4/startup_stm32f429xx.s"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/BlinkingWithButton/STM32F4/startup_stm32f429xx.s"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BlinkingWithButton/Code/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BlinkingWithButton/Code/Task.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BlinkingWithButton/Code/main.c"/>
 </editors>
-<item historyLabel="assembly.s" index="3">
-<position info="not_deleted" x="274" y="16"/>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="394" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="378" y="0"/>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="515" y="0"/>
 </item>
-<item historyLabel="assembly.s" index="3">
-<position info="not_deleted" x="274" y="16"/>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="1017" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="386" y="0"/>
+<item historyLabel="Task.h" index="1">
+<position info="not_deleted" x="414" y="1"/>
 </item>
-<item historyLabel="startup_stm32f429xx.s" index="4">
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="515" y="0"/>
+</item>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="1017" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="529" y="0"/>
+</item>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="1017" y="0"/>
+</item>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="529" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="247" y="0"/>
+</item>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="1017" y="0"/>
+</item>
+<item historyLabel="startup_stm32f429xx.s" index="2">
+<position/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="436" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="557" y="0"/>
+</item>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="680" y="0"/>
+</item>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="1016" y="0"/>
+</item>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="894" y="24"/>
+</item>
+<item historyLabel="Task.h" index="1">
+<position info="not_deleted" x="384" y="0"/>
+</item>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="997" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="415" y="0"/>
+</item>
+<item historyLabel="startup_stm32f429xx.s" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="375" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="394" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="483" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="394" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="188" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="396" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="212" y="0"/>
+<item historyLabel="main.c" index="5">
+<position/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="236" y="0"/>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="894" y="24"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="260" y="0"/>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="29" y="18"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="284" y="0"/>
+<item historyLabel="main.c" index="5">
+<position/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="308" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="394" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="332" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="394" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="356" y="0"/>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="997" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="382" y="0"/>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="894" y="24"/>
 </item>
-<item historyLabel="stm32f4xx_it.c" index="1">
-<position info="not_deleted" x="4789" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="390" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="383" y="0"/>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="406" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="483" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="249" y="0"/>
 </item>
-<item historyLabel="stm32f4xx_it.c" index="1">
-<position info="not_deleted" x="4789" y="0"/>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="406" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="383" y="0"/>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="997" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="483" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="249" y="0"/>
 </item>
-<item historyLabel="stm32f4xx_it.c" index="1">
-<position info="not_deleted" x="4789" y="0"/>
+<item historyLabel="Task.h" index="1">
+<position info="not_deleted" x="384" y="0"/>
 </item>
-<item historyLabel="startup_stm32f429xx.s" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="679" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="375" y="0"/>
+<item historyLabel="Task.h" index="1">
+<position info="not_deleted" x="384" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="470" y="0"/>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="992" y="0"/>
 </item>
-<item historyLabel="stm32f4xx_it.c" index="1">
-<position info="not_deleted" x="4789" y="0"/>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="1514" y="0"/>
 </item>
-<item historyLabel="startup_stm32f429xx.s" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Task.c" index="4">
+<position info="not_deleted" x="992" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="470" y="0"/>
+<item historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="186" y="0"/>
 </item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="383" y="0"/>
+<item historyLabel="Task.h" index="1">
+<position info="not_deleted" x="384" y="0"/>
 </item>
-<item historyLabel="startup_stm32f429xx.s" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="483" y="0"/>
-</item>
-<item historyLabel="stm32f4xx_it.c" index="1">
-<position info="not_deleted" x="4789" y="0"/>
-</item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="503" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="483" y="0"/>
-</item>
-<item historyLabel="startup_stm32f429xx.s" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="112" y="0"/>
-</item>
-<item historyLabel="startup_stm32f429xx.s" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="382" y="0"/>
-</item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="488" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="startup_stm32f429xx.s" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="483" y="0"/>
-</item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="188" y="0"/>
-</item>
-<item historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="212" y="0"/>
-</item>
-<item active="true" historyLabel="scheduler.s" index="2">
-<position info="not_deleted" x="236" y="0"/>
+<item active="true" historyLabel="assembly.s" index="0">
+<position info="not_deleted" x="186" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -440,8 +427,17 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="BlinkingWithButton/Code/main.c">
+<persistable path="/BlinkingWithButton/Code/main.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f429xx.s" tooltip="BlinkingWithButton/STM32F4/startup_stm32f429xx.s">
 <persistable path="/BlinkingWithButton/STM32F4/startup_stm32f429xx.s"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Task.h" tooltip="BlinkingWithButton/Code/Task.h">
+<persistable path="/BlinkingWithButton/Code/Task.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Task.c" tooltip="BlinkingWithButton/Code/Task.c">
+<persistable path="/BlinkingWithButton/Code/Task.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Time.c" tooltip="BlinkingWithButton/Code/Time.c">
 <persistable path="/BlinkingWithButton/Code/Time.c"/>
@@ -472,12 +468,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LED.h" tooltip="BlinkingWithButton/Code/LED.h">
 <persistable path="/BlinkingWithButton/Code/LED.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LED.c" tooltip="BlinkingWithButton/Code/LED.c">
-<persistable path="/BlinkingWithButton/Code/LED.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ButtonSM.c" tooltip="BlinkingWithButton/Code/ButtonSM.c">
-<persistable path="/BlinkingWithButton/Code/ButtonSM.c"/>
 </file>
 </mruList>
 </workbench>

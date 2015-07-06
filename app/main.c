@@ -21,7 +21,7 @@ int main(void)
 {
 	LedData ledData ; ButtonData buttonData ;
 
-
+	initTcb();
 
 	ledInitData(&ledData);
 	buttonInitData(&buttonData);
@@ -45,6 +45,7 @@ int main(void)
 
 
 }
+
 
 
 void initSysTick()

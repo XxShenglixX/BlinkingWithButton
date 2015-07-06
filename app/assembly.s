@@ -8,8 +8,6 @@
   .global SysTick_Handler
   .extern dummy
 
-.equ TCB_NAME,0
-.equ TCB_SP,4
 
 /*
   .section  .text.testFunc
@@ -49,33 +47,7 @@ taskswitch:
 	ldr r10,	=#0xBBBBBBBB
 	ldr r11,	=#0xCCCCCCCC
 	ldr r12,	=#0xDDDDDDDD
-	ldr lr,		=#0xABCDEFFF
+	//ldr lr,		=#0xABCDEFFF
 	push {r0}
 
 	b		.
-
-	.align 8
-	.type SysTick_Handler, %function
-SysTick_Handler:
-
-/*Task switching mechanism*/
-
-
-
-// 1) Push the rest of register
-// 2) Let R0 points to mainTCB
-// 3) Store the current SP into mainTcb.sp (through R0) //str r1[r0,#TCB_SP] or ldr r1,[r0,#8]
-// 4) Let R0 points to taskOneTcb
-// 5) Load taskOneTcb(throught R0) into current SP
-// 6) return from interrupt
-
-	stmdb sp!, {r4-r11}
-//	push {r7, lr}
-//	add r7, sp, #0
-//	bl HAL_IncTick
-//	pop {r7,pc}
-
-
- 	b	.
-   
-   

@@ -9,6 +9,11 @@ Tcb taskTwoTcb ;
 
 void taskOne()
 {
+	asm
+	(
+		"ldr r0,=#0x11111110\n\t"
+	);
+
 	return ;
 }
 
@@ -21,10 +26,9 @@ void initTcb()
 	mainTcb.sp = 0 ;
 
 	taskOneTcb.name = "thread #1";
-	taskOneTcb.sp =  (uint32_t)taskOneStack[1028];
 
-	CpuContext *cc = (CpuContext *)((uint32_t)&taskOneStack[1024] - sizeof(CpuContext));
-	taskOneTcb.sp =  (uint32_t)cc;
+	CpuContext *context = (CpuContext *)((uint32_t)&taskOneStack[1024] - sizeof(CpuContext));
+	taskOneTcb.sp =  (uint32_t)context;
 
 	context	->	xPSR	=	0x01000000 ;
 	context	->	PC		=	(uint32_t)taskOne ;
